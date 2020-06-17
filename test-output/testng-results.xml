@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46322" started-at="2020-06-17T06:42:52Z" finished-at="2020-06-17T06:43:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46322" started-at="2020-06-17T06:42:52Z" finished-at="2020-06-17T06:43:39Z">
+      <class name="Execution.Tc_TestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Execution.Tc_TestNG@a67c67e]" name="setup" is-config="true" duration-ms="8991" started-at="2020-06-17T06:42:52Z" finished-at="2020-06-17T06:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_Searching_AddingCart()[pri:0, instance:Execution.Tc_TestNG@a67c67e]" name="Tc_Login_Searching_AddingCart" duration-ms="35759" started-at="2020-06-17T06:43:01Z" finished-at="2020-06-17T06:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_Searching_AddingCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Execution.Tc_TestNG@a67c67e]" name="tearDown" is-config="true" duration-ms="1535" started-at="2020-06-17T06:43:37Z" finished-at="2020-06-17T06:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_Login_Searching_AddingCart status=SUCCESS method=Tc_TestNG.Tc_Login_Searching_AddingCart()[pri:0, instance:Execution.Tc_TestNG@a67c67e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Execution.Tc_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
